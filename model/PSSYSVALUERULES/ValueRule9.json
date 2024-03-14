@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule9",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule9.json",
+  "name" : "正浮点数",
+  "regExCode" : "(([0-9]+\\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\\.[0-9]+)|([0-9]*[1-9][0-9]*))+",
+  "ruleInfo" : "内容必须为正浮点数",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

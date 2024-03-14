@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule10",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule10.json",
+  "name" : "非正浮点数（负浮点数 + 0）",
+  "regExCode" : "((-\\d+(\\.\\d+)?)|(0+(\\.0+)?))+",
+  "ruleInfo" : "内容必须为非正浮点数（负浮点数 + 0）",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

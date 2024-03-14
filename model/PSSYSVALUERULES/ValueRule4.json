@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule4",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule4.json",
+  "name" : "正整数",
+  "regExCode" : "[0-9]*[1-9][0-9]*",
+  "ruleInfo" : "内容必须为正整数",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

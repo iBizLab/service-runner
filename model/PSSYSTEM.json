@@ -1,0 +1,574 @@
+{
+  "getAllPSApps" : [ {
+    "modelref" : true,
+    "path" : "PSSYSAPPS/MobApp/PSSYSAPP.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSAPPS/WebApp/PSSYSAPP.json"
+  } ],
+  "getAllPSCodeLists" : [ {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList64.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList75.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList68.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList95.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList27.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList118.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList42.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList60.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList81.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList83.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList94.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList79.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList30.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList113.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList11.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList116.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList84.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList65.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/WFStates.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList77.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList70.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList48.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList38.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList5.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList24.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList114.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList41.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/TrueFalse.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList37.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList111.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList34.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList28.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList62.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList6.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList46.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList23.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList86.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList89.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList2.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList90.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList19.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList67.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList4.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList102.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList20.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList50.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList9.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList29.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList45.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList74.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList39.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList101.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList3.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList1.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList32.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList87.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList57.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList16.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList7.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList40.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList58.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList10.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList36.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList93.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList92.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList107.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList88.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList80.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList52.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList8.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList103.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList35.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList55.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList33.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList59.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList104.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList99.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList21.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList108.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList96.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList112.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList14.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList56.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList100.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList117.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList66.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/YesNo.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/SysOperator.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList13.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList54.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList12.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList71.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList98.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList31.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList105.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList22.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList17.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList47.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList61.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList106.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList97.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList18.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList69.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList115.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList63.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList49.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList26.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList91.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList85.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList82.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList72.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList110.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList78.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList109.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/SortDir.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList15.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList53.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSCODELISTS/CodeList76.json"
+  } ],
+  "getAllPSDEOPPrivs" : [ {
+    "logicName" : "建立",
+    "name" : "CREATE"
+  }, {
+    "logicName" : "删除",
+    "name" : "DELETE"
+  }, {
+    "logicName" : "拒绝",
+    "name" : "DENY"
+  }, {
+    "logicName" : "无控制",
+    "name" : "NONE"
+  }, {
+    "logicName" : "读取",
+    "name" : "READ"
+  }, {
+    "logicName" : "更新",
+    "name" : "UPDATE"
+  }, {
+    "logicName" : "流程启动",
+    "name" : "WFSTART"
+  } ],
+  "getAllPSSysBackServices" : [ {
+    "modelref" : true,
+    "path" : "PSSYSBACKSERVICES/DENotifyDeamon.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSBACKSERVICES/SysDataSyncAgentDeamon.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSBACKSERVICES/WFCallbackDeamon.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSBACKSERVICES/SysAdminDeamon.json"
+  } ],
+  "getAllPSSysDBValueFuncs" : [ {
+    "modelref" : true,
+    "path" : "PSSYSDBVFS/DATEDIFFNOW2.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSDBVFS/DATEDIFFNOW.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSDBVFS/STRLEN.json"
+  } ],
+  "getAllPSSysEditorStyles" : [ {
+    "codeName" : "Auto5",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto5.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBTEXT",
+    "editorWidth" : -1.0,
+    "name" : "网址",
+    "styleCode" : "Auto5",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto3",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto3.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBDATE",
+    "editorWidth" : -1.0,
+    "name" : "只有小时分钟",
+    "styleCode" : "Auto3",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto2",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto2.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBTEXT",
+    "editorWidth" : -1.0,
+    "name" : "密码框",
+    "styleCode" : "Auto2",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto1",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto1.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBDATE",
+    "editorWidth" : -1.0,
+    "name" : "精确到分钟",
+    "styleCode" : "Auto1",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto9",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto9.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBTEXT",
+    "editorWidth" : -1.0,
+    "name" : "数字",
+    "styleCode" : "Auto9",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto4",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto4.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBTEXT",
+    "editorWidth" : -1.0,
+    "name" : "邮箱",
+    "styleCode" : "Auto4",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto7",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto7.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBTEXT",
+    "editorWidth" : -1.0,
+    "name" : "电话号码",
+    "styleCode" : "Auto7",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto8",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto8.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBDATE",
+    "editorWidth" : -1.0,
+    "name" : "精确到小时",
+    "styleCode" : "Auto8",
+    "replaceDefault" : false
+  }, {
+    "codeName" : "Auto6",
+    "dynaModelFilePath" : "PSSYSEDITORSTYLES/Auto6.json",
+    "editorHeight" : -1.0,
+    "editorType" : "MOBDATE",
+    "editorWidth" : -1.0,
+    "name" : "精确到天",
+    "styleCode" : "Auto6",
+    "replaceDefault" : false
+  } ],
+  "getAllPSSysServiceAPIs" : [ {
+    "modelref" : true,
+    "path" : "PSSYSSERVICEAPIS/API.json"
+  } ],
+  "getAllPSSysValueRules" : [ {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule3.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule10.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule4.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule7.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule19.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule14.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule16.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule9.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule13.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule15.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule18.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule6.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule5.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule11.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule17.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule8.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule2.json"
+  }, {
+    "modelref" : true,
+    "path" : "PSSYSVALUERULES/ValueRule12.json"
+  } ],
+  "codeName" : "IBizServiceRunner",
+  "defaultLanguage" : "ZH_CN",
+  "getDefaultPSSysSFPub" : {
+    "codeName" : "iBizServiceRunner",
+    "contentType" : "CODE",
+    "defaultFlag" : true,
+    "dynaModelFilePath" : "PSSYSSFPUBS/iBizServiceRunner.json",
+    "modelFolder" : "model",
+    "name" : "iBizServiceRunner",
+    "pKGCodeName" : "cn.ibizlab.runner.servicerunner",
+    "versionString" : "1.0.0.0",
+    "codeMode" : true,
+    "enableModelRT" : true,
+    "mainPSSysSFPub" : true,
+    "pubModel" : true
+  },
+  "deploySysId" : "E3645CF0-00BF-492B-8451-70745D6E4DC4",
+  "logicName" : "IBizServiceRunner",
+  "name" : "IBizServiceRunner",
+  "vCName" : "trunk",
+  "id" : "PSSYSTEM.json"
+}

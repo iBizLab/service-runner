@@ -1,0 +1,8 @@
+{
+  "name" : "移动端应用",
+  "simple" : "true",
+  "cache" : {
+    "getPSAppViews" : [ ]
+  },
+  "id" : "PSSYSAPPS/MobApp/PSSYSAPP.json"
+}

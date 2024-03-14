@@ -1,0 +1,50 @@
+version: "3.2"
+services:
+  ibizservicerunner-provider:
+    image: registry.cn-shanghai.aliyuncs.com/ibizsys/ibizservicerunner-provider:latest
+    ports:
+      - "30050:30050"
+    networks:
+      - agent_network
+    environment:
+      - SPRING_CLOUD_NACOS_DISCOVERY_IP=172.16.240.140
+      - SERVER_PORT=30050
+      - SPRING_CLOUD_NACOS_DISCOVERY_SERVER-ADDR=172.16.240.140:8848
+      - SPRING_CLOUD_NACOS_CONFIG_SERVER-ADDR=172.16.240.140:8848
+      - SPRING_REDIS_HOST=127.0.0.1
+      - SPRING_REDIS_PORT=6379
+      - SPRING_REDIS_DATABASE=0
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=123456
+      - SPRING_DATASOURCE_URL=jdbc:h2:mem:master
+      - SPRING_DATASOURCE_DRIVER-CLASS-NAME=org.h2.Driver
+      - SPRING_DATASOURCE_DEFAULTSCHEMA=root
+      - NACOS=172.16.240.140:8848
+    deploy:
+      resources:
+           limits:
+               memory: 4048M
+           reservations:
+               memory: 400M    
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+        window: 120s
+    volumes:
+      - "nfs:/app/file"
+
+volumes:
+  nfs:
+    driver: local
+    driver_opts:
+      type: "nfs"
+      o: "addr=172.16.240.140,rw"
+      device: ":/data/nfs"
+
+networks:
+  agent_network:
+    driver: overlay
+    attachable: true
+

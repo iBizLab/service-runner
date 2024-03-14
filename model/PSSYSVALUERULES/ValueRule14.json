@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule14",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule14.json",
+  "name" : "由26个英文字母组成的字符串",
+  "regExCode" : "[A-Za-z]+",
+  "ruleInfo" : "内容必须为26个英文字母组成的字符串",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

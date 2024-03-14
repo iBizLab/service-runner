@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    include: sys
+  application:
+    name: ibizservicerunner
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.ibizcloud.cn:8848
+        group: ibiz_config_group
+      config:
+        server-addr: nacos.ibizcloud.cn:8848
+        group: ibiz_config_group
+        file-extension: yaml
+
+ibiz:
+  servicehub:
+    id: ibizservicerunner
+#    register-naming-service: false
+#    publish-config: false
+  tenant: true
+
+#生产环境需要关闭
+springfox:
+  documentation:
+    enabled: true
+
+logging:
+  level:
+    net.ibizsys.central.cloud: debug
+    net.ibizsys.central: debug
+    net.ibizsys.runtime: debug
+    cn.ibizlab.runner.servicerunner: debug

@@ -1,0 +1,45 @@
+{
+  "accUserMode" : 0,
+  "appSwitchMode" : 0,
+  "caption" : "应用首页视图",
+  "codeName" : "AppIndexView",
+  "dynaModelFilePath" : "PSSYSAPPS/WebApp/PSAPPINDEXVIEWS/AppIndexView.json",
+  "name" : "AppIndexView",
+  "getPSControls" : [ {
+    "codeName" : "AppIndexView",
+    "controlType" : "APPMENU",
+    "layoutMode" : "TABLE_24COL",
+    "logicName" : "应用首页视图默认菜单",
+    "name" : "appmenu",
+    "getPSControlHandler" : {
+      "enableDEFieldPrivilege" : false,
+      "id" : "appmenu"
+    },
+    "getPSControlParam" : {
+      "autoLoad" : true,
+      "showBusyIndicator" : true
+    },
+    "enableCustomize" : false,
+    "modelid" : "C1E8C6B4-FF32-4F30-A047-4735FE8E7056",
+    "modeltype" : "PSAPPMENU"
+  } ],
+  "getPSViewLayoutPanel" : {
+    "codeName" : "Layoutpanel",
+    "controlStyle" : "APPINDEXVIEW",
+    "controlType" : "VIEWLAYOUTPANEL",
+    "name" : "layoutpanel",
+    "getPSControlParam" : { },
+    "layoutBodyOnly" : true,
+    "layoutPanel" : true,
+    "useDefaultLayout" : true
+  },
+  "title" : "应用首页视图",
+  "viewStyle" : "DEFAULT",
+  "viewType" : "APPINDEXVIEW",
+  "blankMode" : false,
+  "defaultPage" : true,
+  "enableAppSwitch" : false,
+  "enableDP" : true,
+  "modelid" : "21B109F9-08AA-429F-BD74-891CBAD1DA8B",
+  "modeltype" : "PSAPPINDEXVIEW"
+}

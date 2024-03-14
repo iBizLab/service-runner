@@ -1,0 +1,13 @@
+tempfolder: /usr/SRFEX_TEMP
+filefolder: /usr/SRFEX_FILE
+fontfolder: /usr/share/fonts
+reportfolder: /usr/SRFEX_REPORT
+deploysystems:
+  - gateway
+  - ibizservicerunner
+systemsettings:
+  cloudclientutil:
+    serviceurl: lb://ebsx-oldapi
+    accesstokenurl: lb://ibizcloud-uaa/v7/login
+    clientid: aibizhi
+    clientsecret: '123456'

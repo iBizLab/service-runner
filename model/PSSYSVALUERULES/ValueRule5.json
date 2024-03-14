@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule5",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule5.json",
+  "name" : "非正整数（负整数 + 0）",
+  "regExCode" : "((-\\d+)|(0+))+",
+  "ruleInfo" : "内容必须为正整数（负整数 + 0）",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

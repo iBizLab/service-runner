@@ -1,0 +1,123 @@
+{
+  "getAllPSAppMenuModels" : [ {
+    "modelref" : true,
+    "path" : "PSSYSAPPS/MobApp/PSAPPMENUS/AppIndexView.json",
+    "name" : "appindexview",
+    "controlType" : "APPMENU"
+  } ],
+  "getAllPSAppViews" : [ {
+    "modelref" : true,
+    "path" : "PSSYSAPPS/MobApp/PSAPPINDEXVIEWS/AppIndexView.json",
+    "viewType" : "APPINDEXVIEW",
+    "view" : "AppIndexView"
+  } ],
+  "getAllPSDEOPPrivs" : [ {
+    "logicName" : "建立",
+    "name" : "CREATE"
+  }, {
+    "logicName" : "删除",
+    "name" : "DELETE"
+  }, {
+    "logicName" : "拒绝",
+    "name" : "DENY"
+  }, {
+    "logicName" : "无控制",
+    "name" : "NONE"
+  }, {
+    "logicName" : "读取",
+    "name" : "READ"
+  }, {
+    "logicName" : "更新",
+    "name" : "UPDATE"
+  }, {
+    "logicName" : "流程启动",
+    "name" : "WFSTART"
+  } ],
+  "appFolder" : "MobApp",
+  "appMode" : "DEFAULT",
+  "appVersion" : "1.0.0.0",
+  "codeName" : "MobApp",
+  "defaultFlag" : false,
+  "getDefaultPSAppIndexView" : {
+    "modelref" : true,
+    "path" : "PSSYSAPPS/MobApp/PSAPPINDEXVIEWS/AppIndexView.json",
+    "viewType" : "APPINDEXVIEW"
+  },
+  "dynaModelFilePath" : "PSSYSAPPS/MobApp/PSSYSAPP.json",
+  "name" : "移动端应用",
+  "pFStyle" : "16C4E58C-8732-4665-805E-02921230486E",
+  "pFType" : "Vue_Mobile_R7",
+  "pKGCodeName" : "MobApp",
+  "serviceCodeName" : "MobApp",
+  "sysCodeName" : "IBizServiceRunner",
+  "enableDynaDashboard" : false,
+  "enableFilterStorage" : false,
+  "enableServiceAPIDTO" : true,
+  "enableUACLogin" : false,
+  "mobileApp" : true,
+  "useServiceApi" : true,
+  "wFAppMode" : false,
+  "cache" : {
+    "getPSAppViews" : [ {
+      "accUserMode" : 0,
+      "appSwitchMode" : 0,
+      "caption" : "应用首页视图",
+      "codeName" : "AppIndexView",
+      "dynaModelFilePath" : "PSSYSAPPS/MobApp/PSAPPINDEXVIEWS/AppIndexView.json",
+      "name" : "AppIndexView",
+      "getPSControls" : [ {
+        "codeName" : "AppIndexView",
+        "controlType" : "APPMENU",
+        "layoutMode" : "TABLE_24COL",
+        "logicName" : "应用首页视图默认菜单",
+        "name" : "appmenu",
+        "getPSAppMenuItems" : [ {
+          "accUserMode" : 0,
+          "caption" : "主页",
+          "itemType" : "MENUITEM",
+          "name" : "menuitem1",
+          "getPSLayout" : {
+            "columnCount" : 24,
+            "layout" : "TABLE_24COL"
+          },
+          "getPSLayoutPos" : {
+            "colMD" : 24,
+            "layout" : "TABLE_24COL"
+          },
+          "tooltip" : "主页"
+        } ],
+        "getPSControlHandler" : {
+          "enableDEFieldPrivilege" : false,
+          "id" : "appmenu"
+        },
+        "getPSControlParam" : {
+          "autoLoad" : true,
+          "showBusyIndicator" : true
+        },
+        "enableCustomize" : false,
+        "modelid" : "62DD31D1-D3C0-41DF-9265-6B22CDD46DA3",
+        "modeltype" : "PSAPPMENU"
+      } ],
+      "getPSViewLayoutPanel" : {
+        "codeName" : "Layoutpanel",
+        "controlStyle" : "APPINDEXVIEW",
+        "controlType" : "VIEWLAYOUTPANEL",
+        "name" : "layoutpanel",
+        "getPSControlParam" : { },
+        "layoutBodyOnly" : true,
+        "layoutPanel" : true,
+        "useDefaultLayout" : true
+      },
+      "title" : "应用首页视图",
+      "viewStyle" : "DEFAULT",
+      "viewType" : "APPINDEXVIEW",
+      "blankMode" : false,
+      "defaultPage" : true,
+      "enableAppSwitch" : false,
+      "enableDP" : true,
+      "modelid" : "B9724DF2-CEC9-4028-98EF-003D11082732",
+      "modeltype" : "PSAPPINDEXVIEW"
+    } ],
+    "getPSAppDataEntities" : [ ]
+  }
+}

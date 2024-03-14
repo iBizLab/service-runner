@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule3",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule3.json",
+  "name" : "非负整数（正整数 + 0）",
+  "regExCode" : "\\d+",
+  "ruleInfo" : "内容必须为非负整数（正整数 + 0）",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

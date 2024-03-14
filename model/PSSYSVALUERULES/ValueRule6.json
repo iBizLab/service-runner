@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule6",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule6.json",
+  "name" : "负整数",
+  "regExCode" : "-[0-9]*[1-9][0-9]*",
+  "ruleInfo" : "内容必须为负整数",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

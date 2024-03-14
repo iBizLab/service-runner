@@ -1,0 +1,83 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>IBizServiceRunner</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>para1</name>
+          <description></description>
+          <defaultValue>para1</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>para2</name>
+          <description></description>
+          <defaultValue>para2</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>      
+        <hudson.model.StringParameterDefinition>
+          <name>para3</name>
+          <description></description>
+          <defaultValue>para3</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>         
+        <hudson.model.StringParameterDefinition>
+          <name>para4</name>
+          <description></description>
+          <defaultValue>para4</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>         
+        <hudson.model.StringParameterDefinition>
+          <name>para5</name>
+          <description></description>
+          <defaultValue>para5</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>              
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>
+      BUILD_ID=DONTKILLME
+      source /etc/profile
+      rm -rf ibizservicerunner
+	  git clone -b master $para2 ibizservicerunner/
+      export NODE_OPTIONS=--max-old-space-size=4096
+      cd ibizservicerunner/
+      mvn clean package -Papi
+      mvn install -Papi
+      cd ibizservicerunner-provider
+      mvn -Papi docker:build
+      mvn -Papi docker:push
+      docker -H $para1 stack deploy --compose-file=src/main/docker/ibizservicerunner-provider-api.yaml ebsx --with-registry-auth      
+      </command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.plugins.ws__cleanup.WsCleanup plugin="ws-cleanup@0.34">
+      <patterns class="empty-list"/>
+      <deleteDirs>false</deleteDirs>
+      <skipWhenFailed>false</skipWhenFailed>
+      <cleanWhenSuccess>true</cleanWhenSuccess>
+      <cleanWhenUnstable>true</cleanWhenUnstable>
+      <cleanWhenFailure>true</cleanWhenFailure>
+      <cleanWhenNotBuilt>true</cleanWhenNotBuilt>
+      <cleanWhenAborted>true</cleanWhenAborted>
+      <notFailBuild>false</notFailBuild>
+      <cleanupMatrixParent>false</cleanupMatrixParent>
+      <externalDelete></externalDelete>
+    </hudson.plugins.ws__cleanup.WsCleanup>
+  </publishers>
+  <buildWrappers/>
+</project>

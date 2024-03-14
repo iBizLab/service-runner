@@ -1,0 +1,14 @@
+{
+  "aPIMode" : 0,
+  "aPIType" : "RESTFUL",
+  "aPIVersion" : 1,
+  "authMode" : "NONE",
+  "codeName" : "API",
+  "dynaModelFilePath" : "PSSYSSERVICEAPIS/API.json",
+  "httpPort" : 0,
+  "name" : "服务接口",
+  "serviceCodeName" : "API",
+  "serviceType" : "DEFAULT",
+  "enableServiceAPIDTO" : true,
+  "userLevel" : true
+}

@@ -1,0 +1,17 @@
+{
+  "codeName" : "AppIndexView",
+  "controlType" : "APPMENU",
+  "dynaModelFilePath" : "PSSYSAPPS/MobApp/PSAPPMENUS/AppIndexView.json",
+  "logicName" : "应用首页视图默认菜单",
+  "getPSAppMenuItems" : [ {
+    "accUserMode" : 0,
+    "caption" : "主页",
+    "itemType" : "MENUITEM",
+    "name" : "menuitem1",
+    "tooltip" : "主页"
+  } ],
+  "enableCustomize" : false,
+  "name" : "appindexview",
+  "modelid" : "62DD31D1-D3C0-41DF-9265-6B22CDD46DA3",
+  "modeltype" : "PSAPPMENU"
+}

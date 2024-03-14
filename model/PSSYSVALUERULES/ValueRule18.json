@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule18",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule18.json",
+  "name" : "文件名称",
+  "regExCode" : "[^\\\\\\/\\:\\*\\?\\\"\\<\\>\\|]+(\\[^\\\\\\/\\:\\*\\?\\\"\\<\\>\\|]+)*",
+  "ruleInfo" : "内容不能包括/、\\、?、*、<、>、:",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule12",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule12.json",
+  "name" : "浮点数",
+  "regExCode" : "(-?\\d+)(\\.\\d+)?",
+  "ruleInfo" : "内容必须为浮点数",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

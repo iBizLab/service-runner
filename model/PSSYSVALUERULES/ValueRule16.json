@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule16",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule16.json",
+  "name" : "email地址",
+  "regExCode" : "[\\w-]+(\\.[\\w-]+)*@[\\w-]+(\\.[\\w-]+)+",
+  "ruleInfo" : "内容必须为电子邮件格式",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

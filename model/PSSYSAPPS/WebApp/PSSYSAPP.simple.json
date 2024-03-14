@@ -1,0 +1,8 @@
+{
+  "name" : "web应用",
+  "simple" : "true",
+  "cache" : {
+    "getPSAppViews" : [ ]
+  },
+  "id" : "PSSYSAPPS/WebApp/PSSYSAPP.json"
+}

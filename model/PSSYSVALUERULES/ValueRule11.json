@@ -1,0 +1,10 @@
+{
+  "codeName" : "ValueRule11",
+  "dynaModelFilePath" : "PSSYSVALUERULES/ValueRule11.json",
+  "name" : "负浮点数",
+  "regExCode" : "(-(([0-9]+\\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\\.[0-9]+)|([0-9]*[1-9][0-9]*)))+",
+  "ruleInfo" : "内容必须为负浮点数",
+  "ruleType" : "REG",
+  "enableBackend" : true,
+  "enableFront" : true
+}

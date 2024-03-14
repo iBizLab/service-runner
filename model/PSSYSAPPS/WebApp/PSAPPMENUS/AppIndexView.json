@@ -1,0 +1,10 @@
+{
+  "codeName" : "AppIndexView",
+  "controlType" : "APPMENU",
+  "dynaModelFilePath" : "PSSYSAPPS/WebApp/PSAPPMENUS/AppIndexView.json",
+  "logicName" : "应用首页视图默认菜单",
+  "enableCustomize" : false,
+  "name" : "appindexview",
+  "modelid" : "C1E8C6B4-FF32-4F30-A047-4735FE8E7056",
+  "modeltype" : "PSAPPMENU"
+}

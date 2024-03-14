@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ibizservicerunner</artifactId>
+    <groupId>cn.ibizlab.runner.servicerunner</groupId>
+    <version>1.0.0.0</version>
+    <name>Ibizservicerunner</name>
+    <description></description>
+    <packaging>pom</packaging>
+
+    <!--  Spring Boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.0</version>
+    </parent>
+
+    <modules>
+        <!-- cores -->
+        <module>ibizservicerunner-core</module>
+        <!-- services -->
+        <module>ibizservicerunner-provider</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.deploy.skip>false</maven.deploy.skip>
+        <ibiz.cloud.version>8.1.0.458</ibiz.cloud.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-cloud</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-redis</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-mybatisplus-spring-boot-starter</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+         <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-zookeeper</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-poi</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-liquibase</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+    
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-jasperreports</artifactId>
+            <version>${ibiz.cloud.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.bouncycastle</groupId>
+                    <artifactId>bcprov-jdk14</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>bouncycastle</groupId>
+                    <artifactId>bcprov-jdk14</artifactId>
+                </exclusion>
+                <exclusion>
+                	<groupId>org.apache.lucene</groupId>
+                	<artifactId>lucene-core</artifactId>
+                </exclusion>
+                <exclusion>
+                	<groupId>org.apache.lucene</groupId>
+                	<artifactId>lucene-analyzers-common</artifactId>
+                </exclusion>
+                <exclusion>
+                	<groupId>org.apache.lucene</groupId>
+                	<artifactId>lucene-queryparser</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-elasticsearch</artifactId>
+            <version>${ibiz.cloud.version}</version>
+       </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-kafka</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-quartz</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-rabbitmq</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-mongodb</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-activemq</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+                <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-solr</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-python</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibizlab-plugin-groovy</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-eai</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-psmodel-runtime</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-jgit</artifactId>
+            <version>${ibiz.cloud.version}</version>
+       </dependency>
+       	<dependency>
+			<groupId>cn.ibizlab.plugin</groupId>
+			<artifactId>ibiz-plugin-neo4j</artifactId>
+			<version>${ibiz.cloud.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>cn.ibizlab.plugin</groupId>
+			<artifactId>ibiz-plugin-antvg6</artifactId>
+			<version>${ibiz.cloud.version}</version>
+		</dependency>
+
+        <dependency>
+			<groupId>cn.ibizlab.plugin</groupId>
+			<artifactId>ibiz-plugin-neo4j-report</artifactId>
+			<version>${ibiz.cloud.version}</version>
+		</dependency>
+
+        <dependency>
+			<groupId>cn.ibizlab.plugin</groupId>
+			<artifactId>ibiz-plugin-extension</artifactId>
+			<version>${ibiz.cloud.version}</version>
+		</dependency>
+
+        <dependency>
+            <groupId>cn.ibizlab.plugin</groupId>
+            <artifactId>ibiz-plugin-opml</artifactId>
+            <version>${ibiz.cloud.version}</version>
+        </dependency>
+        <!--达梦数据库-->
+        <dependency>
+            <groupId>com.dameng</groupId>
+            <artifactId>DmJdbcDriver18</artifactId>
+            <version>8.1.1.193</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+		<repository>
+			<id>ibizmvnrepository</id>
+			<name>ibizmvnrepository</name>
+			<url>http://172.16.240.220:8081/repository/public/</url>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <configuration>
+                    <generateBackupPoms>false</generateBackupPoms>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
